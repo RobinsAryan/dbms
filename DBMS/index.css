@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+      
+}
+
+/* *::-webkit-scrollbar {
+      display: none;
+} */
+
+body{
+     
+    background-color: blueviolet;
+      
+      background-size:cover;
+      z-index: -1;
+    
+}
+
+
+.myheader{
+      width:viewport;
+      height:65px;
+      background-color: green;
+    
+      
+      
+    
+      justify-content: center;
+      animation-name: colorchange;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      
+}
+
+
+.mainContainer{
+      
+      height: 100px;
+      background-image: linear-gradient(orange,white);
+      animation-name: color;
+      animation-duration: 0.5s;
+     
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      
+
+    
+}
+@keyframes color {
+      from{background-image:linear-gradient(orange,white);}
+      to{background-image: linear-gradient(white,orange);}
+}
+
+      
+      
+  .btn{
+      
+      height:50px;
+      margin-top: 50px;
+     display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+     justify-items: center;
+      gap:10px;
+     
+      
+    
+      
+     
+  }   
+  .login a {
+padding-inline: 100px;
+    font-size: large;
+  }
+  .signin a {
+      padding-inline:50px 80px;
+      padding-left: 10px;
+      font-size: large;
+      text-align: center;
+     
+     
+        }
+        .btn button{
+            box-shadow: 1px 2px 1px 1px greenyellow;
+            
+       
+        }
+      
+      button:hover{
+            padding-inline: 100px;
+            
+           
+      }
+      .login a:hover{
+            background-color: orange;
+           padding-inline:150px;
+           
+      }
+      .signin a:hover{
+            background-color: orange;
+            padding-inline:150px;
+      }
+      
+
+
+
